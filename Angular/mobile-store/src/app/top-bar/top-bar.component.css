@@ -1,0 +1,47 @@
+.top-bar {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: 68px;
+  padding: 16px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.fancy-button {
+  background-color: white;
+  color: #1976d2;
+}
+
+.fancy-button i.material-icons {
+  color: #1976d2;
+  padding-right: 4px;
+}
+
+.home {
+  background-color: #1976d2;
+}
+
+.products {
+  background-color: green;
+}
+
+.shipping {
+  background-color: lightGrey;
+}
+.cart {
+  background-color: coral;
+}
+
+.top-bar h1 {
+  color: white;
+  margin: 0;
+}
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+*/
