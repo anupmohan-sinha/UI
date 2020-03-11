@@ -1,0 +1,12 @@
+<button class="kx-btn kx-btn--skin-{{color}} kx-btn--size-{{size}}  kx-btn--{{fluid}}" disabled="{{disabled}}">
+    <span class="kx-btn__inner">
+        <span class="kx-btn__txt">
+            <div *ngIf= "label">
+                {{label}}
+            </div>
+            <div *ngIf= "!label">
+                <ng-content></ng-content>
+            </div>
+        </span>
+    </span>
+</button>
