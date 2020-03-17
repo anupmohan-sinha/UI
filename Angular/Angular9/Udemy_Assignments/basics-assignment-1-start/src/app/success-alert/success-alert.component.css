@@ -1,0 +1,10 @@
+h3 {
+    color: green;
+}
+
+.msg {
+    background-color: mistyrose;
+    border: 1px solid red;
+    margin: 20px;
+    padding: 10px;
+}
