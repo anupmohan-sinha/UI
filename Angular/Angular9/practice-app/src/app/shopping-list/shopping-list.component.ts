@@ -16,4 +16,9 @@ export class ShoppingListComponent {
     ];
     constructor() {
     }
+
+    addItem(item: Ingredient) {
+        console.log('item ', item);
+        this.ingredients.push(item);
+    }
 }
