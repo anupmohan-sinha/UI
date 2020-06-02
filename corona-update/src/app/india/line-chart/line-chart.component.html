@@ -1,0 +1,9 @@
+<figure class="highcharts-figure">
+    <div class="row btn-row">
+        <button type="button" class="btn btn-outline-primary" [ngClass]="{'active': id === 0 }" id="0" (click)="changeDuration(0)">All days</button>
+        <button type="button" class="btn btn-outline-primary" [ngClass]="{'active': id === 30 }" id="30" (click)="changeDuration(30)">30 Days</button>
+        <button type="button" class="btn btn-outline-primary" [ngClass]="{'active': id === 20 }" id="20" (click)="changeDuration(20)" active>20 Days</button>
+        <button type="button" class="btn btn-outline-primary" [ngClass]="{'active': id === 10 }" id="10" (click)="changeDuration(10)">10 days</button>
+    </div>
+    <div id="lineContainer"></div>
+</figure>

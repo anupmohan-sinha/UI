@@ -1,0 +1,39 @@
+table {
+    width: 100%;
+}
+.mat-header-cell {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px 10px 10px 0px;
+    background-color: mistyrose;
+    color: #050372;
+}
+
+.stat-heading {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 20px;
+    color: #9e9e1f;
+}
+
+.country-container {
+    overflow-x: scroll;
+}
+
+@media screen and (max-width: 767px) {
+    table td:nth-child(1) {
+        padding-right: 10px;
+    }
+    table td:nth-child(2) {
+        padding-right: 10px;
+    }
+
+    .mat-header-cell {
+        font-size: 0.8rem;
+    }
+
+    td {
+        font-size: 0.75rem;
+        font-weight: 400;
+    }
+}

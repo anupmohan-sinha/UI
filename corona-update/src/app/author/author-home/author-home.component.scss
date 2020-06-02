@@ -1,0 +1,15 @@
+.author {
+    height: 700px;
+}
+
+@media screen and (min-width: 1536px) {
+    .author  {
+        height: 700px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .author {
+        height: 900px;
+    }
+}

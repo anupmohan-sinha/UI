@@ -1,0 +1,11 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <h2 class="info-header">World Dashboard for COVID-19</h2>
+            <app-latest-stat [worldStat]="worldStatData"></app-latest-stat>
+            <app-world-map [countryIsoStat]="countryIsoStatData"></app-world-map>
+            <app-countrywise-stat [countryStat]="sortedCountryStatData"></app-countrywise-stat>
+            <app-top-cases [countryStat]="sortedCountryStat"></app-top-cases>
+        </div>
+    </div>
+  </div>

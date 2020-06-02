@@ -1,0 +1,75 @@
+h1 {
+    font-size: 2.25rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+h5 {
+    font-size :1.25rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+
+.map-stats {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10rem;
+    position: relative;
+    margin: 1.5rem 0.5rem 2rem 0rem;
+    justify-content: space-between;
+}
+
+.stats {
+    text-align: center;
+    background: #ff073a20;
+    color: #ff073a;
+    display: flex;
+    flex-direction: column;
+    max-width: 24%;
+    margin-top: 0.75rem;
+    padding-top: 1rem;
+}
+
+.stats.is-blue {
+    background: #007bff10;
+    color: #007bff;
+}
+
+.stats.is-green {
+    background: #28a74520;
+    color: #28a745;
+}
+
+.stats.is-gray {
+    background: #6c757d10;
+    color: #6c757d;
+}
+
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 1.75rem;
+    }
+    .stats {
+        max-width: 100%;
+    }
+    .map-stats {
+        height: 15rem;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .stats {
+        max-width: 48%;
+    }
+    .map-stats {
+        height: 15rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .stats {
+        max-width: 24%;
+    }
+}

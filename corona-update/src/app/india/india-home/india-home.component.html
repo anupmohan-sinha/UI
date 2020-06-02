@@ -1,0 +1,27 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 col-sm-12 col-md-12">
+            <h2 class="info-header">India Dashboard for COVID-19</h2>
+            <app-latest-stat [overallCases]="overallCases"></app-latest-stat>
+            <app-datewise-bar-stat [timeSeriesCases]="indiaStatData.cases_time_series"></app-datewise-bar-stat>
+            <app-line-chart [timeSeriesCases]="indiaStatData.cases_time_series"></app-line-chart>
+            <app-statewise-stat [stateData]="statewiseData" [districtData]="stateDistrictData"></app-statewise-stat>
+            <div class="row">
+                <div class="col-lg-6 col-sm-12 col-md-12"><app-gender-chart></app-gender-chart></div>
+                <div class="col-lg-6 col-sm-12 col-md-12"><app-bangalore-stat></app-bangalore-stat></div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 col-sm-12 col-md-12"><app-india-map [stateData]="statewiseData"></app-india-map></div>                
+                <!-- <div class="col-lg-6 col-sm-12 col-md-12"><app-nationality-chart></app-nationality-chart></div> -->
+                <div class="col-lg-6 col-sm-12 col-md-12"><app-transmission-source></app-transmission-source></div>
+            </div>
+            
+            <!-- <div class="row">
+                <div class="col-lg-8 col-sm-12 col-md-12"><app-india-map [stateData]="statewiseData"></app-india-map></div>
+                <div class="col-lg-4 col-sm-12 col-md-12"><app-state-chart></app-state-chart></div>
+            </div> -->
+            
+        </div>
+    </div>
+  </div>

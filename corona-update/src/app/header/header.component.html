@@ -1,0 +1,29 @@
+<nav  class="navbar navbar-expand-lg navbar-light bg-light menu-text">
+    <div class="container-fluid">
+            <a routerLink="/" class="navbar-brand virus-icon"><img src="../../assets/icons/virus.png" alt="virus icon" height="45" (click)="showLoader()"></a>
+            <button type="button" class="navbar-toggler" (click)="collapsed = !collapsed">
+                <span class="navbar-toggler-icon"></span>
+            </button>            
+
+        <div class="collapse navbar-collapse" [class.collapse]="collapsed" (window:resize)="collapsed = true">
+            <ul class="navbar-nav mr-auto" (click)="collapsed = !collapsed">
+                <li class="nav-item"><a class="nav-link" [routerLink]="['/india']" routerLinkActive="router-link-active" (click)="showLoader()">India</a></li>
+                <li class="nav-item"><a class="nav-link" [routerLink]="['/world']" (click)="showLoader()">World</a></li>
+                <li class="nav-item"><a class="nav-link" [routerLink]="['/info']" (click)="showLoader()">Information</a></li>
+                <li class="nav-item"><a class="nav-link" [routerLink]="['/news']" (click)="showLoader()">Latest News</a></li>
+                <li class="nav-item"><a class="nav-link" [routerLink]="['/map']" (click)="showLoader()">Map</a></li>
+                <li class="nav-item"><a class="nav-link" [routerLink]="['/author']" (click)="showLoader()">Author</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <div class="menu-icon">
+        <a routerLink="/" class="navbar-brand virus-icon"><img src="../../assets/icons/virus.png" alt="virus icon" height="45" (click)="showLoader()" title="home"></a>
+        <!-- <a class="nav-link" [routerLink]="['/india']" routerLinkActive="icon-is-active" (click)="showLoader()"><img src="../../assets/icons/india.png" height="27" alt="India"></a> -->
+        <a class="nav-link" [routerLink]="['/world']" routerLinkActive="icon-is-active" (click)="showLoader()"><img src="../../assets/icons/world.png" alt="World" height="30"></a>
+        <a class="nav-link" [routerLink]="['/info']" routerLinkActive="icon-is-active"><img src="../../assets/icons/info.png" alt="Information" height="27"></a>
+        <a class="nav-link" [routerLink]="['/news']" routerLinkActive="icon-is-active" (click)="showLoader()"><img src="../../assets/icons/news.png" alt="Latest News" height="30"></a>
+        <a class="nav-link" [routerLink]="['/map']" routerLinkActive="icon-is-active" (click)="showLoader()"><img src="../../assets/icons/map.png" alt="Map" height="30"></a>
+        <a class="nav-link" [routerLink]="['/author']" routerLinkActive="icon-is-active" (click)="showLoader()"><img src="../../assets/icons/author.png" alt="Author" height="30"></a>
+    </div>
