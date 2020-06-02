@@ -49,3 +49,27 @@ header {
 h1 {
     margin-top: 2em;
 }
+
+svg rect {
+    fill: grey;
+}
+
+svg text {
+    fill: yellow;
+    font: 12px sans-serif;
+    text-anchor: end;
+}
+
+.arc text {
+    font: 12px arial;
+    text-anchor: middle;
+}
+
+.arc path {
+    stroke: #fff;
+}
+
+.title {
+    fill: green;
+    font-weight: italic;
+}
