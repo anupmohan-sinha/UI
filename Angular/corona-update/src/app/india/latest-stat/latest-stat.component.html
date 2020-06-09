@@ -1,0 +1,30 @@
+<div class="map-stats row">
+  <!-- <div class="col-lg-3 col-md-6 col-sm-12 date-time">{{formatDateAbsolute(overallCases?.lastupdatedtime)}}</div> -->
+  <div class="stats col-lg-3 col-md-6 col-sm-12">
+    <h5>Confirmed</h5>
+    <div class="stats-bottom">
+      <h1>{{overallCases?.confirmed}}</h1>
+      <h3>[+{{overallCases?.deltaconfirmed}}]</h3>
+    </div>
+  </div>
+  <div class="stats is-blue col-lg-3 col-md-6 col-sm-12">
+    <h5>Active</h5>
+    <div class="stats-bottom">
+      <h1>{{overallCases?.active}}</h1>
+    </div>
+  </div>
+  <div class="stats is-green col-lg-3 col-md-6 col-sm-12">
+    <h5>Recovered</h5>
+    <div class="stats-bottom">
+      <h1>{{overallCases?.recovered}}</h1>
+      <h3>[+{{overallCases?.deltarecovered}}]</h3>
+    </div>
+  </div>
+  <div class="stats is-gray col-lg-3 col-md-6 col-sm-12">
+    <h5>Deceased</h5>
+    <div class="stats-bottom">
+      <h1>{{overallCases?.deaths}}</h1>
+      <h3>[+{{overallCases?.deltadeaths}}]</h3>
+    </div>
+  </div>
+</div>

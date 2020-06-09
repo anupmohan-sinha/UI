@@ -1,0 +1,32 @@
+.nav-item a {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 2rem;
+    font-weight: 700;
+   // margin: auto;
+}
+
+.virus-icon {
+    padding: 0px;
+}
+
+.menu-icon {
+    display: none;
+    background-color: #f8f9fa;
+}
+
+.icon-is-active {
+    border: 1px solid #8b008b;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 991px) {
+    .menu-text {
+        display: none;
+    }
+    .menu-icon {
+        display: flex;
+        flex: 1;
+        justify-content: space-around;
+    }
+}
