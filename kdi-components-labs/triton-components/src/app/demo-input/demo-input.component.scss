@@ -1,0 +1,56 @@
+.kx-row {
+    margin: 10px 0px;
+    padding-top: 20px;
+    padding-left: 20px;
+    height: 500px;
+    border: 0.1em solid #e9f2f6;
+    border-radius: 2px;
+}
+
+.docs-container {
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.code-section {
+    padding: 10px;
+    margin: 10px 0px;
+    width: 100%;
+}
+
+.code {
+    width: 100%;
+    white-space: pre-wrap;
+    padding: 10px;
+    margin: 10px 0px;
+    background: #e8f6fe;
+    border-radius: 10px;
+}
+
+.mh {
+    max-height: 300px;
+}
+
+.json {
+    display: flex;
+    justify-content: center;
+    resize: none;
+    border: 0.1em solid #e9f2f6;
+    height: 415px;
+    width: 90%;
+    border-radius: 5px;
+    color: #e9f2f6;
+    background: #004e5a;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.vertical-line {
+    border-right: 2px solid lightblue;
+    margin: 0 30px;
+}

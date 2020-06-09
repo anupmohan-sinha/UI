@@ -1,0 +1,72 @@
+<div class="docs-container">
+  <p class="kx-typescale--xlarge">Input Component</p>
+
+  <div class="main">
+    <div class="kx-row">
+      <div class="kx-col--6">
+        <section>
+          <ng-container *ngFor="let input of inputValues">
+            <kdi-app-input [type]="input.type" [value]="input.value" [size]="input.size"
+              [placeholder]="input.placeholder" [label]="input.label"></kdi-app-input>
+          </ng-container>
+        </section>
+      </div>
+      <span class="vertical-line"></span>
+      <div class="kx-col--5">
+        <section class="json-section">
+          <p class="kx-typescale--base kx-m--small kx-m">Test Inputs (JSON DATA)</p>
+          <textarea class="json" [(ngModel)]="Input"></textarea>
+        </section>
+      </div>
+    </div>
+
+    <section>
+      <ul>
+        <li class="kx-typescale--large">Description</li>
+        <section class="code-section">
+          <p class="kx-typescale--base"> Input Fields allow users to enter inputs into a UI. They typically appear in
+            forms and dialogs.. </p>
+        </section>
+
+        <li class="kx-typescale--large">Supported &lt;input&gt; types</li>
+        <section class="code-section">
+          <div class="kx-typescale--base">
+            <ul>
+              <li>Text</li>
+              <li>Color</li>
+              <li>Date</li>
+              <li>Month</li>
+              <li>Url</li>
+              <li>Time</li>
+            </ul>
+
+          </div>
+        </section>
+
+        <li class="kx-typescale--large">Configuration Options</li>
+        <section class="code-section">
+          <p class="kx-typescale--base">Use this Selector in your component to include Badge Component.</p>
+          <pre class="kx-p--base kx-typescale--base code mh">
+          &lt;kdi-app-input [type]="input.type" [value]="input.value" [size]="input.size" [placeholder]="input.placeholder" [label]="input.label"&gt;
+          &lt;/kdi-app-input&gt;</pre>
+        </section>
+        <li class="kx-typescale--large">How to use ?</li>
+        <section class="code-section">
+          <p class="kx-typescale--base">Follow the following format to use it.</p>
+          <pre class="kx-p--base kx-typescale--base code mh">
+          &lt;kdi-app-input [type]="input.type" [value]="input.value" [size]="input.size" [placeholder]="input.placeholder" [label]="input.label"&gt;
+              &lt;/kdi-app-input&gt;   
+
+            <i>We can used like below:</i>
+              &lt;kdi-app-input [type]="color" [value]="#f00" [size]="base" [placeholder]="color code" [label]="Color Code"&gt;
+              &lt;/kdi-app-input&gt; 
+          </pre>
+          <p>
+            For the list of "type"s available refer to KDI design system.
+          </p>
+        </section>
+
+      </ul>
+    </section>
+  </div>
+</div>

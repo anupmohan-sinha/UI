@@ -1,0 +1,11 @@
+<div class="container flex">
+    <div class="flex-center">
+        <button (click)="displayDetails(); counter = counter +1" class="btn btn-primary">Display Details</button>
+        <p *ngIf="showParagraph">Secret Password &#x3d; &#39;tuna&#39;</p>
+
+        <div *ngFor="let item of logTime; let i = index;"
+        [ngStyle] = "{backgroundColor: i> 4 ? 'blue' : 'transparent'}"
+        [ngClass] = "{'white-text': i>4}"
+        >{{item}} :: Number of click = {{i + 1}}</div>
+    </div>
+</div>
