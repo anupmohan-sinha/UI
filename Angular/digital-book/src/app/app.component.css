@@ -1,0 +1,30 @@
+.one {
+    display: flex;
+    padding: 4rem;
+}
+
+.one-text {
+    flex: 1;
+}
+
+.one-image {
+    flex: 1;
+}
+
+.two {
+    background-image: linear-gradient(199deg,#5b84db,#538ac6 39%,#4f8cc2 52%,#2b6da9),linear-gradient(195deg,#5ca6ea,#4f8cc2 44%,#2d608f),linear-gradient(180deg,#4185b8,#4185b8);
+}
+
+.two-text {
+    padding: 6rem 0 7rem;
+    background: url(../assets/images/flip-background-logos.svg) repeat scroll 50% #0000;
+}
+
+.text-nowrap {
+    white-space: nowrap;
+}
+
+.bottom {
+    text-align: center;
+    color: #fff;
+}

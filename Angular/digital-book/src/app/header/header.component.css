@@ -1,0 +1,46 @@
+p {
+    font-family: Lato;
+}
+
+.bg-dark {
+    background-image: linear-gradient(90deg,#2769a4 12%,#4088cc 62%,#4a7ecb 104%);
+}
+
+.logo-sec {
+    display: flex;
+    flex-direction: column;
+}
+
+.light {
+    margin-top: -10px;
+    flex: 1;
+}
+
+.com-text {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sai {
+    flex: 1;
+}
+
+.logo-text {
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+    flex: 5;
+    letter-spacing: 1px;
+    font-family: ui-rounded;
+}
+
+.nav-item {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0px 1.5rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
